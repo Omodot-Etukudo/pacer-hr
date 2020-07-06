@@ -13,5 +13,9 @@ export default {
 <style>
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html{
+scroll-behaviour:smooth;
 }
 </style>
