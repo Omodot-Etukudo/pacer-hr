@@ -152,7 +152,10 @@
     </div>
     <!--End of third section-->
     <!--Beginning of fourth section-->
-    <div class="grid grid-col-3 grid-flow-col gap-4 lg:grid md:flex flex-wrap">
+    <div
+      class="grid grid-col-3 grid-flow-col gap-4 lg:grid md:flex flex-wrap"
+      id="fourth-section"
+    >
       <div>
         <h2 class="mt-40 ml-20 font-sans text-blue-800 font-semibold text-4xl">
           Optimize your HRM processes
@@ -407,5 +410,8 @@ div > button {
 }
 div > button:focus {
   outline: none;
+}
+html {
+  scroll-behavior: smooth;
 }
 </style>

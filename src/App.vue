@@ -15,7 +15,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 }
-html{
+template{
 scroll-behaviour:smooth;
 }
 </style>
