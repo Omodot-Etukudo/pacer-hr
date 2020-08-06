@@ -293,7 +293,7 @@
 
 <script>
 // @ is an alias to /src
-import navbar from "@/components/navbar.vue";
+	
 
 export default {
   data() {
