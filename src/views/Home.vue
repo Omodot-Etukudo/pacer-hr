@@ -1,7 +1,6 @@
 <template>
   <div class="w-full">
     <navbar />
-
     <section>
       <!--hero content-->
       <div class="grid grid-cols-2 gap-0 mb-20 md:grid grid-cols-1">
@@ -59,7 +58,7 @@
     <!--beginning of section 2-->
 
     <div
-      id="about"
+      id="product"
       class="grid grid-cols-2 gap-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1"
     >
       <div>
@@ -407,5 +406,8 @@ div > button {
 }
 div > button:focus {
   outline: none;
+}
+.w-full {
+  scroll-behavior: smooth;
 }
 </style>
