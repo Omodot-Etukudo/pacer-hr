@@ -6,7 +6,7 @@
       <h1
         class="lg:hidden md:grid sm:grid mt-2 font-semibold text-2xl text-blue-900"
       >
-        Opps!
+        Oops!
         <p>Recommended for Large Screens</p>
       </h1>
       <p class="lg:hidden md:grid sm:grid text-gray-600">
