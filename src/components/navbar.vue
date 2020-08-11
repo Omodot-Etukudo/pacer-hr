@@ -11,7 +11,7 @@
         />
       </div>
       <div class="flex">
-        <ul class="font-semibold text-base font-sans">
+        <ul class="font-semibold text-base">
           <a
             href="#hero"
             class="inline-block mx-10 my-4 hover:text-blue-700 transition transition-colors duration-300"

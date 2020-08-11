@@ -15,7 +15,7 @@
             <span class="font-semibold text-blue-800">Pacer-HR.</span>
           </h1>
           <h5
-            class="font-regular text-gray-700 text-left leading-regular tracking wide lg:text-lg w-9/12 mx-20 mb-10 md:text-xl w-6/12 mx-20 mb-10"
+            class="font-regular text-gray-700 text-left leading-regular tracking wide lg:text-lg w-9/12 mx-20 mb-10 md:text-xl w-6/12 mx-20 mb-10 text-justify"
           >
             Let's create a seamless and professional experience for you and your
             organization by offering you easy access to our cloud services from
@@ -76,11 +76,11 @@
       </div>
       <div class="mr-20 mt-5 ml-20">
         <h1
-          class="font-sans font-semibold text-blue-800 lg:text-4xl w-11/12 md:text-4xl w-9/12 sm:text-2xl"
+          class="font-semibold text-blue-800 lg:text-4xl w-11/12 md:text-4xl w-9/12 sm:text-2xl"
         >
           We offer a simple cloud-enabled SaaS platform.
         </h1>
-        <h3 class="text-gray-700 text-xl mt-5 mr-20 leading-loose font-sans">
+        <h3 class="text-gray-700 text-xl mt-5 mr-20 leading-loose text-justify">
           Give yourself and your employees the capability of enjoying seamless
           HR-Processes. Save time, save energy and other resources, spend more
           time on your business, not HR. Streamline your work flow by
@@ -93,7 +93,7 @@
               id="sol-list1"
               v-for="item in solutionlist1"
               :key="item.index"
-              class="mb-4 font-sans font-semibold text-xl text-blue-900 ml-8"
+              class="mb-4 font-semibold text-xl text-blue-900 ml-8"
             >
               {{ item.solution }}
             </li>
@@ -103,7 +103,7 @@
               id="sol-list2"
               v-for="item in solutionlist2"
               :key="item.index"
-              class="mb-4 font-sans font-semibold text-xl text-blue-900 font-sans"
+              class="mb-4 font-semibold text-xl text-blue-900"
             >
               {{ item.solution }}
             </li>
@@ -120,12 +120,12 @@
       >
         <div id="other-benefits">
           <h1
-            class="font-sans text-blue-800 font-semibold text-5xl mt-140 ml-20"
+            class="text-blue-800 font-semibold text-5xl mt-140 ml-20"
           >
             And many more...
           </h1>
           <h3
-            class="leading-loose text-gray-700 font-sans:Sergoe Ui mt-2 ml-20 lg:text-xl w-9/12 md:text-xl w-6/12"
+            class="leading-loose text-gray-700 mt-2 ml-20 lg:text-xl w-9/12 md:text-xl w-6/12 text-justify"
           >
             Building an organisation is difficult, managing your employees
             <span class="bg-gray-200 rounded-md">should not</span> be. Pacer-Hr
@@ -138,11 +138,11 @@
           :key="item.name"
         >
           <img :src="require(`@/assets/home-icons/${item.icon}`)" />
-          <h2 class="mt-5 font-sans font-semibold text-2xl text-blue-900 mb-2">
+          <h2 class="mt-5 font-semibold text-2xl text-blue-900 mb-2">
             {{ item.name }}
           </h2>
           <h3
-            class="text-gray-600 text-base mt-0 mr-20 leading-loose font-sans"
+            class="text-gray-600 text-base mt-0 mr-20 leading-loose text-justify"
           >
             {{ item.description }}
           </h3>
@@ -153,13 +153,13 @@
     <!--Beginning of fourth section-->
     <div class="grid grid-col-3 grid-flow-col gap-4 lg:grid md:flex flex-wrap">
       <div>
-        <h2 class="mt-40 ml-20 font-sans text-blue-800 font-semibold text-4xl">
+        <h2 class="mt-40 ml-20 text-blue-800 font-semibold text-4xl">
           Optimize your HRM processes
         </h2>
         <ul class="ml-8">
           <li
             id="join-benefits"
-            class="ml-20 text-black font-semibold font-regular text-lg mt-5 font-sans"
+            class="ml-20 text-black font-semibold font-regular text-lg mt-5"
             v-for="item in join"
             :key="item.index"
           >
@@ -183,19 +183,19 @@
       >
         <div class="col-span-2 ml-20 mt-20 pb-10">
           <h3
-            class="uppercase font-sans leading-tight font-medium text-base text-blue-900"
+            class="uppercase leading-tight font-medium text-base text-blue-900"
           >
             join pacer-hr today
           </h3>
           <h1
-            class="mt-5 w-8/12 font-sans text-blue-800 font-semibold text-5xl leading-tight lg:w-11/12 md:w-11/12"
+            class="mt-5 w-8/12 text-blue-800 font-semibold text-5xl leading-tight lg:w-11/12 md:w-11/12"
           >
             Create a productive working environmnent
           </h1>
         </div>
         <div class="col-span-1 mt-20 pl-20 m-auto">
           <button
-            class="bg-blue-900 text-lg font-semibold font-sans rounded-md px-10 py-3 text-white hover:bg-blue-800 shadow-md"
+            class="bg-blue-900 text-lg font-semibold rounded-md px-10 py-3 text-white hover:bg-blue-800 shadow-md"
           >
             Try it for free
           </button>
@@ -206,12 +206,12 @@
           <ul id="footer_item" v-for="item in footer_company" :key="item.index">
             <h2
               id="list_head"
-              class="text-gray-600 font-sans font-bold text-lg"
+              class="text-gray-600 font-bold text-lg"
             >
               {{ item.list_head }}
             </h2>
             <li
-              class="leading-loose text-gray-900 font-sans:Sergoe Ui text-base font-regular hover:text-blue-700"
+              class="leading-loose text-gray-900 text-base font-regular hover:text-blue-700"
             >
               <a href="#">{{ item.item }}</a>
             </li>
@@ -225,12 +225,12 @@
           >
             <h2
               id="list_head"
-              class="text-gray-600 font-sans font-bold text-lg"
+              class="text-gray-600 font-bold text-lg"
             >
               {{ item.list_head }}
             </h2>
             <li
-              class="leading-loose text-gray-900 font-sans:Sergoe Ui text-base font-regular hover:text-blue-700"
+              class="leading-loose text-gray-900 text-base font-regular hover:text-blue-700"
             >
               <a href="#">{{ item.item }}</a>
             </li>
@@ -244,12 +244,12 @@
           >
             <h2
               id="list_head"
-              class="text-gray-600 font-sans font-bold text-lg"
+              class="text-gray-600 font-bold text-lg"
             >
               {{ item.list_head }}
             </h2>
             <li
-              class="leading-loose text-gray-900 font-sans:Sergoe Ui text-base font-regular hover:text-blue-700"
+              class="leading-loose text-gray-900 text-base font-regular hover:text-blue-700"
             >
               <a href="#">{{ item.item }}</a>
             </li>
@@ -263,12 +263,12 @@
           >
             <h2
               id="list_head"
-              class="text-gray-600 font-sans font-bold text-lg"
+              class="text-gray-600 font-bold text-lg"
             >
               {{ item.list_head }}
             </h2>
             <li
-              class="leading-loose text-gray-900 font-sans:Sergoe Ui text-base font-regular hover:text-blue-700"
+              class="leading-loose text-gray-900 text-base font-regular hover:text-blue-700"
             >
               <a href="#">{{ item.item }}</a>
             </li>
