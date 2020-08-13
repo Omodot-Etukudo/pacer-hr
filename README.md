@@ -1,7 +1,3 @@
-# finalproject
-
-https://pacer-hr.netlify.app/
-
 ## Project setup
 ```
 npm install
