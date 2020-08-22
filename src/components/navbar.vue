@@ -33,14 +33,16 @@
     <div class="flex flex-row items-start">
       <a
         class="px-3 py-2 mt-2 text-base font font-semibold font-sans hover:text-blue-700 transition transition-colors duration-300"
-        href="#footer_item"
-        >Contact Us</a
+        href="https://pacerhr.herokuapp.com/careers"
+        >Careers</a
       >
-      <button
-        class="px-6 py-2 mt-2 mr-10 ml-5 bg-blue-900 text-white rounded-md hover:bg-blue-800 hover:shadow-md focus:outline-none font-semibold font-sans"
+      <a href="https://pacerhr.herokuapp.com/login"
+        ><button
+          class="px-6 py-2 mt-2 mr-10 ml-5 bg-blue-900 text-white rounded-md hover:bg-blue-800 hover:shadow-md focus:outline-none font-semibold font-sans"
+        >
+          Sign In
+        </button></a
       >
-        Sign In
-      </button>
     </div>
   </header>
 </template>
