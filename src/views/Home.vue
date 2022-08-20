@@ -9,7 +9,7 @@
           class="text-gray-800 text-left leading-relaxed tracking-wide font-regular bg-gray-100 w-full mb-0 md:col-span-2 lg:col-span-1 pt-20"
         >
           <h1
-            class="hero-text mt-0 mb-6 mx-20 lg:text-5xl font-regular md:text-5xl font-semibold"
+            class="hero-text mt-0 mb-6 mx-20 lg:text-5xl font-regular md:text-5xl font-semibold leading-snug"
           >
             Scale the power of cloud enabled HRM with
             <span class="font-semibold text-blue-800">Pacer-HR.</span>
